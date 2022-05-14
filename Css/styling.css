@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(194, 194, 194);
+}
+
+.container{
+    background-color: black;
+    height: 700px;
+    width: 400px;
+    margin-left: 600px;
+    margin-top: 100px;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+img{
+    width: 400px;
+    height: 420px;
+    border-radius: 20px;
+}
+
+.counter{
+    width: 400px;
+    height: 10px;
+    background-color: rgb(102, 102, 102);
+    border-radius: 10px;
+}
+
+.reader{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.circle{
+    border-radius: 100px;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    margin-left: 190px;
+}
+
+#left{
+    margin-left: 250px;
+    display: inline;
+}
+

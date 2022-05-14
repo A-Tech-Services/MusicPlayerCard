@@ -5,25 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player</title>
+
+    <!-- css styling link -->
+    <link rel="stylesheet" href="/Css/styling.css">
+
+    <!-- my icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+    <!-- main container -->
     <div class="container">
+
+        <!-- Image container -->
         <div class="imgcontainer">
             <img src="/Images/AURORA.png" alt="Aurora">
         </div>
+
+        <!-- text container -->
         <div class="textcon">
             <h3>iphone</h3>
             <p>Tears of Gold (Stripped) <br>Aurora-Stripped</p>
-            <span><i class="fa-brands fa-bluetooth"></i></span>
+            <span></i></span>
+
+            <!-- progression bar -->
             <div class="counter">
                 <div class="reader">
+                    <span class="circle">
 
+                    </span>
                 </div>
-                <span>0:40</span><span id="2">-3:30</span><br>
-                <span><i class="fa-solid fa-backward-fast"></i></span>
-                <span><i class="fa-solid fa-play"></i></span>
-                <span><i class="fa-solid fa-forward-fast"></i></span>
             </div>
+            <span>0:40</span>
+            <span id="2">-3:30</span><br><br>
+                
+            <span><i class="fa-solid fa-backward-fast"></i></span>
+            <span><i class="fa-solid fa-play"></i></span>
+            <span><i class="fa-solid fa-forward-fast"></i></span>
         </div>
     </div>
 </body>
